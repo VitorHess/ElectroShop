@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(207, 206, 206);
+  border: 0;
+}
+
+hr {
+  border: 1px solid;
+  color: rgb(197, 168, 6);
+}
+
+header {
+  width: 100%;
+}
+header h1 {
+  color: rgb(10, 82, 141);
+}
+header h1 span {
+  color: rgb(219, 187, 4);
+}
+header ul li {
+  list-style: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+}
+
+main {
+  background-color: aquamarine;
+}/*# sourceMappingURL=index_style.css.map */
