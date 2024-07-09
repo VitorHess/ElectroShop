@@ -19,6 +19,20 @@ header {
         }
     }
 
+    .btn{
+        list-style: none;
+        font-weight: bolder;
+        &:focus{
+            border: 0;
+            outline: none;
+            box-shadow: none;
+        }
+    }
+
+    button:focus {
+        outline: 2px solid red; /* Exemplo de borda vermelha ao focar */
+    }
+
     ul {
         li {
             list-style: none;
@@ -28,6 +42,6 @@ header {
     }
 }
 
-main{
-    background-color: aquamarine;
+#mainContent{
+    background-color: rgb(194, 194, 188);
 }

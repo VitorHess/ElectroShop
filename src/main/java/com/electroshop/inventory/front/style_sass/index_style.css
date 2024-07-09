@@ -17,12 +17,24 @@ header h1 {
 header h1 span {
   color: rgb(219, 187, 4);
 }
+header .btn {
+  list-style: none;
+  font-weight: bolder;
+}
+header .btn:focus {
+  border: 0;
+  outline: none;
+  box-shadow: none;
+}
+header button:focus {
+  outline: 2px solid red; /* Exemplo de borda vermelha ao focar */
+}
 header ul li {
   list-style: none;
   background-color: rgb(255, 255, 255);
   border-radius: 3px;
 }
 
-main {
-  background-color: aquamarine;
+#mainContent {
+  background-color: rgb(194, 194, 188);
 }/*# sourceMappingURL=index_style.css.map */
