@@ -1,4 +1,4 @@
-package com.electroshop.inventory.repositorie;
+package com.electroshop.inventory.repository;
 
 import com.electroshop.inventory.model.ProductModel;
 import org.springframework.data.jpa.repository.JpaRepository;
